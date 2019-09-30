@@ -1,6 +1,0 @@
-<ul>
-  <li *ngFor="let content of (contentStore.state$ | async).contents; index as i">
-    <p>{{ content.id }} - {{ content.description }}</p>
-  </li>
-</ul>
-<button (click)="addContent()">+</button>

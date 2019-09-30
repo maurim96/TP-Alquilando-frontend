@@ -12,8 +12,7 @@ export const environment = {
   // clientRoot: '',
 
   //URL of your apiRoot in development environment
-  // apiRoot: '',
-  
+  apiRoot: "https://reqres.in/api/"
 };
 
 /*
